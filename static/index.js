@@ -96,7 +96,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function countBlockSize() {
-        blockSize = body.offsetWidth / 4;
+        blockSize = body.offsetWidth / 2;
         body.style.height = window.innerHeight + 'px';
         GameLayerBG.style.height = window.innerHeight + 'px';
         touchArea[0] = window.innerHeight;
